@@ -1,0 +1,1635 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/*index page */
+.container{
+    height:300px;
+}
+
+.background{
+    height:100%;
+    width:100%;
+}
+.welcome-img{
+    width:100%;
+    height:auto;
+}
+
+.button{
+    display:flex;
+    justify-content:center;
+}
+
+.welcome-btn{
+    background-color:gold;
+    font-family:'Arvo', serif;
+    font-weight:400;
+    border-radius:10px;
+    padding:0 10px;
+    border: none;
+}
+.welcome-btn:hover{
+    background-color:green;
+    cursor:pointer;  
+}
+/*media query for index page */
+@media(max-width:2560px){
+    .container{
+        height:2750px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:1500px;
+    }
+    .welcome-btn{
+        font-size:60px;
+    }
+}
+@media(max-width:1440px){
+    .container{
+        height:705px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:600px;
+    }
+    .welcome-btn{
+        font-size:30px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        height:695px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:600px;
+    }
+    .welcome-btn{
+        font-size:20px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        height:600px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:500px;
+    }
+    .welcome-btn{
+        font-size:18px;
+    }
+}
+@media(max-width:540px){
+    .container{
+        height:405px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:345px;
+    }
+    .welcome-btn{
+        font-size:18px;
+    }
+}
+@media(max-width:425px){
+    .container{
+        height:650px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:475px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:414px){
+    .container{
+        height:875px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:730px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:411px){
+    .container{
+        height:800px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:630px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:375px){
+    .container{
+        height:775px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:675px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:360px){
+    .container{
+        height:450px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:375px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:320px){
+    .container{
+        height:335px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:275px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+@media(max-width:280px){
+    .container{
+        height:325px;
+    }
+    .welcome-img{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        position:relative;
+        bottom:255px;
+    }
+    .welcome-btn{
+        font-size:12px;
+    }
+}
+
+/* About page */
+.about-page{
+    display:none;
+} 
+
+/* Nav bar */
+#navbar{
+    background-color:black;
+    height:50px;
+}
+
+
+
+#logo{
+    color:white;
+    display:flex;
+    justify-content: left;
+    position:absolute;
+    top:10px;
+    left:10px;
+    
+
+}
+
+
+.about-link{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size:30px;
+}
+
+.about-link:hover{
+    color:gold;
+    
+}
+
+#menu-bar{
+   color:white;
+   position:absolute;
+   right:10px;
+   top:10px;
+   font-size:40px;
+   cursor: pointer;
+   
+   
+ 
+
+}
+#menu-bar:hover{
+    color:gold;
+    cursor:pointer;
+    
+    
+}
+
+#side-bar{
+    width:100%;
+    display:none;
+}
+
+.side-list{
+    padding:10px;
+    background-color: black;
+    border:.5px white solid;
+    text-align: center;
+    cursor:pointer;
+}
+#side-nav{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    font-family: 'Arvo', serif;
+}
+#side-nav:hover{
+    color:gold;
+    cursor:pointer;
+}
+/*media query for navbar */
+@media(max-width:2560px){
+#navbar{
+    height:140px;
+    background-color: black;
+}
+
+.about-link{
+    font-size:128px; 
+}
+
+#menu-bar{
+    font-size:128px;
+}
+
+#side-nav{
+    font-size:120px;
+}
+}
+@media(max-width:1440px){
+#navbar{
+    height:60px;
+    background-color: black;
+}
+
+.about-link{
+    font-size:30px; 
+}
+
+#menu-bar{
+    font-size:30px;
+}
+
+#side-nav{
+    font-size:20px;
+}
+}
+@media(max-width:425px){
+#navbar{
+    height:45px;
+    background-color: black;
+}
+
+.about-link{
+    font-size:30px; 
+}
+
+#menu-bar{
+    font-size:30px;
+}
+
+#side-nav{
+    font-size:15px;
+}
+}
+
+
+/*Main about page */
+.container-main{
+    height:800px;
+    background-color: black;
+    text-align: center;
+    
+  
+}
+.name{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+} 
+
+
+
+.attribute{
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10px;
+    font-size: 40px; 
+    font-family: 'Arvo', serif;; 
+}
+
+.about-me{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:200px;
+    font-size:20px;
+    font-family: 'Arvo', serif;
+}
+
+.about-btn{
+    padding:10px 10px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgba(30,139,195,1);
+}
+.languages{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:20px;
+    font-size:15px;
+    font-family:'Arvo', serif;
+}
+.about-btn:hover{
+    background-color:rgba(36,37,42,1);}
+
+.experience-link{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.experience-link:hover{
+    color:gold;
+
+}
+
+/*media query for main about page */
+@media(max-width:2560px){
+    .container-main{
+        height:2625px;
+        background-color: black;
+    }
+
+    .name{
+    position:relative;
+    top:600px;
+    font-size:120px;
+    
+} 
+    .attribute{
+        position:relative;
+        top:800px;
+        font-size:100px;
+    }
+
+    .about-me{
+        position:relative;
+        top:1100px;
+        font-size:90px;
+    }
+    
+    .about-btn{
+        position:relative;
+        top:1400px;
+        font-size:80px;
+    }
+}
+@media(max-width:1440px){
+    .container-main{
+        height:700px;
+        background-color: black;
+    }
+
+    .name{
+        position:relative;
+        top:15px;
+        font-size:40px;
+    }
+    .attribute{
+        position:relative;
+        top:30px;
+        font-size:28px;
+    }
+    .about-me{
+        position:relative;
+        top:40px;
+        font-size:30px;
+    }
+    .about-btn{
+        position:relative;
+        top:50px;
+        font-size:27px;
+    }
+}
+@media(max-width:1280px){
+    .container-main{
+        height:700px;
+        background-color: black;
+    }
+
+    .name{
+        position:relative;
+        top:15px;
+        font-size:58px;
+    }
+    .attribute{
+        position:relative;
+        top:30px;
+        font-size:48px;
+    }
+    .about-me{
+        position:relative;
+        top:40px;
+        font-size:24px;
+    }
+    .languages{
+        position:relative;
+        top:40px;
+        font-size:30px;
+    }
+    .about-btn{
+        position:relative;
+        top:90px;
+        font-size:27px;
+    }
+}
+@media(max-width:1024px){
+    .container-main{
+        height:600px;
+        background-color: black;
+    }
+
+    .name{
+        position:relative;
+        top:8px;
+        font-size:40px;
+    }
+    .attribute{
+        position:relative;
+        top:20px;
+        font-size:28px;
+    }
+    .about-me{
+        position:relative;
+        top:25px;
+        font-size:18px;
+    }
+    .languages{
+        position:relative;
+        top:3px;
+        font-size:18px;
+    }
+    .about-btn{
+        position:relative;
+        top:50px;
+        font-size:20px;
+    }
+}
+@media(max-width:768px){
+    .container-main{
+        height:1000px;
+        background-color: black;
+    }
+    .name{
+        position:relative;
+        top:85px;
+        font-size:50px;
+    }
+
+    .attribute{
+        position:relative;
+        top:98px;
+        font-size:35px;
+    }
+    .about-me{
+        position:relative;
+        top:135px;
+        font-size:25px;
+    }
+    .languages{
+        position:relative;
+        top:140px;
+        font-size:18px;
+    }
+    .about-btn{
+        position:relative;
+        top:210px;
+        font-size:20px;
+    }
+} 
+@media(max-width:540px){
+    .container-main{
+        height:950px;
+        background-color: black;
+    }
+    .name{
+        position:relative;
+        top:120px;
+        font-size:35px;
+    }
+
+    .attribute{
+        position:relative;
+        top:153px;
+        font-size:25px;
+    }
+    .about-me{
+        position:relative;
+        top:205px;
+        font-size:18px;
+    }
+    .languages{
+        position:relative;
+        top:200px;
+        font-size:15px;
+    }
+    .about-btn{
+        position:relative;
+        top:255px;
+        font-size:15px;
+    }
+} 
+@media(max-width:425px){
+    .container-main{
+        height:675px;
+        background-color: black;
+    }
+.name{
+        position:relative;
+        top:70px;
+        font-size:30px;
+    }
+
+    .attribute{
+        position:relative;
+        top:85px;
+        font-size:25px;
+    }
+    .about-me{
+        position:relative;
+        top:98px;
+        font-size:15px;
+    }
+    .languages{
+        position:relative;
+        top:65px;
+        font-size:11px;
+    }
+
+    .about-btn{
+        position:relative;
+        top:110px;
+        font-size:15px;
+    }
+} 
+@media(max-width:425px){
+    .container-main{
+        height:665px;
+        background-color: black;
+    }
+.name{
+        position:relative;
+        top:20px;
+        font-size:30px;
+    }
+
+    .attribute{
+        position:relative;
+        top:30px;
+        font-size:20px;
+    }
+    .about-me{
+        position:relative;
+        top:20px;
+        font-size:15px;
+    }
+
+    .languages{
+        position:relative;
+        top:10px;
+        font-size:11px;
+    }
+    .about-btn{
+        position:relative;
+        top:60px;
+        font-size:15px;
+    }
+} 
+@media(max-width:414px){
+    .container-main{
+        height:665px;
+        background-color: black;
+    }
+.name{
+        position:relative;
+        top:40px;
+        font-size:25px;
+    }
+
+    .attribute{
+        position:relative;
+        top:45px;
+        font-size:22px;
+    }
+    .about-me{
+        position:relative;
+        top:55px;
+        font-size:19px;
+    }
+    .languages{
+        position:relative;
+        top:55px;
+        font-size:11px;
+    }
+
+    .about-btn{
+        position:relative;
+        top:110px;
+        font-size:15px;
+    }
+} 
+@media(max-width:411px){
+    .container-main{
+        height:630px;
+        background-color: black;
+    }
+.name{
+        position:relative;
+        top:70px;
+        font-size:25px;
+    }
+
+    .attribute{
+        position:relative;
+        top:85px;
+        font-size:20px;
+    }
+    .about-me{
+        position:relative;
+        top:98px;
+        font-size:15px;
+    }
+    .languages{
+        position:relative;
+        top:75px;
+        font-size:11px;
+    }
+    .about-btn{
+        position:relative;
+        top:110px;
+        font-size:12px;
+    }
+}
+
+@media(max-width:375px){
+    .container-main{
+        height:545px;
+        background-color: black;
+    }
+    .name{
+        position:relative;
+        top:10px;
+        font-size:25px;
+    }
+
+    .attribute{
+        position:relative;
+        top:-8px;
+        font-size:18px;
+    }
+    .about-me{
+        position:relative;
+        top:-10px;
+        font-size:15px;
+    }
+    .languages{
+        position:relative;
+        top:-25px;
+        font-size:10px;
+    }
+    .about-btn{
+        position:relative;
+        top:20px;
+        font-size:13px;
+    }
+} 
+@media(max-width:360px){
+    .container-main{
+        height:630px;
+        background-color: black;
+    }
+   .name{
+        position:relative;
+        top:40px;
+        font-size:20px;
+    }
+    .attribute{
+        position:relative;
+        top:10px;
+        font-size:15px;
+    }
+
+    .about-me{
+        position:relative;
+        top:15px;
+        font-size:13px;
+    }
+    .languages{
+        position:relative;
+        top:2px;
+        font-size:8px;
+    }
+    .about-btn{
+        position:relative;
+        top:40px;
+        font-size:10px;
+    }
+} 
+@media(max-width:320px){
+    .container-main{
+        height:465px;
+        background-color: black;
+    }
+    .name{
+        position:relative;
+        top:10px;
+        font-size:20px;
+    }
+
+    .attribute{
+        position:relative;
+        top:-40px;
+        font-size:15px;
+    }
+    .about-me{
+        position:relative;
+        top:-60px;
+        font-size:12px;
+    }
+    .languages{
+        position:relative;
+        top:-85px;
+        font-size:8px;
+    }
+    .about-btn{
+        position:relative;
+        top:-45px;
+        font-size:10px;
+    }
+} 
+@media(max-width:280px){
+    .container-main{
+        height:485px;
+        background-color: black;
+    }
+    .name{
+        position:relative;
+        top:60px;
+        font-size:15px;
+    }
+
+    .attribute{
+        position:relative;
+        top:10px;
+        font-size:13px;
+    }
+    .about-me{
+        position:relative;
+        top:-15px;
+        font-size:10px;
+    }
+    .languages{
+        position:relative;
+        top:-55px;
+        font-size:7px;
+    }
+
+    .about-btn{
+        position:relative;
+        top:-15px;
+        font-size:8px;
+    }
+} 
+
+/* body of experience page */
+.experience-page{
+    display:none;
+}
+.container-experience{
+    height:1100px;
+    background-color: black;
+    text-align: center;
+}
+
+.column{
+    float:left;
+    width:50%;
+}
+
+
+.image, .image-2, .image-3, .image-4,.image-5,.image-6{
+    width:90%;
+    padding:0 30px;
+    padding-top: 40px;
+   
+}
+.image:hover{
+    border: gold .5px solid;
+}
+.image-2:hover{
+    border: gold .5px solid;
+}
+.image-3:hover{
+    border: gold .5px solid;
+}
+.image-4:hover{
+    border: gold .5px solid;
+}
+.image-5:hover{
+    border: gold .5px solid;
+}
+.image-6:hover{
+    border: gold .5px solid;
+}
+
+.restaurant-text,.restaurant-language, .iris, .iris-language,
+.stopwatch-text,.stopwatch-language,.clock-text,.clock-language,
+.beyondthezoo-text,.beyondthezoo-language,.affirmation-text,.affirmation-language
+{
+    color:white;
+    font-family: 'Arvo', serif;
+}
+
+/* media Query for experience projects */
+@media(max-width:2560px)
+{
+    .container-experience{
+        height:3000px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 200px;
+    }
+}
+@media(max-width:1440px)
+{
+    .container-experience{
+        height:1770px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 100px;
+    }
+}
+@media(max-width:1280px)
+{
+    .container-experience{
+        height:1600px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 95px;
+    }
+}
+@media(max-width:1024px)
+{
+    .container-experience{
+        height:1300px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 90px;
+    }
+}
+@media(max-width:768px)
+{
+    .container-experience{
+        height:985px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 70px;
+    }
+}
+@media(max-width:540px)
+{
+    .container-experience{
+        height:770px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 50px;
+    }
+}
+@media(max-width:425px)
+{
+    .container-experience{
+        height:650px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 50px;
+    }
+}
+@media(max-width:414px)
+{
+    .container-experience{
+        height:650px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 50px;
+    }
+}
+@media(max-width:411px)
+{
+    .container-experience{
+        height:650px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 50px;
+    }
+}
+@media(max-width:375px)
+{
+    .container-experience{
+        height:550px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 40px;
+    }
+}
+@media(max-width:360px)
+{
+    .container-experience{
+        height:575px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 50px;
+    }
+}
+@media(max-width:320px)
+{
+    .container-experience{
+        height:535px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 55px;
+    }
+}
+@media(max-width:280px)
+{
+    .container-experience{
+        height:560px;
+    }
+    .image, .image-2, .image-3, .image-4,.image-5,.image-6{
+        padding-top: 65px;
+    }
+}
+
+/* Contact page */
+
+.contact-page{
+    display:none;
+}
+.container-text{
+    background-color: black;
+    height:100px;
+}
+#contact-text{
+    color:white;
+    padding:20px 10px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+}
+
+.contact-information{
+    background-color:black;
+    height:500px;
+    display:flex;
+}
+.contact-form{
+    position:absolute;
+    top:50%;
+    right:0;
+    left:0;
+    text-align: center;
+
+}
+
+.contact-name, .contact-mail, .contact-subject, .contact-message{
+    padding-bottom:10px;
+    display:block;
+    font-family: sans-serif;
+}
+
+.contact-message{
+    height:30px;
+    font-family: sans-serif;
+}
+
+
+
+#name, #mail, #subject{
+    padding:10px;
+    cursor:pointer;
+}
+
+#message{
+    text-align: left;
+    height:70px;
+    width:163px;
+    padding:5px;
+    font-family: sans-serif;
+    cursor:pointer;
+}
+
+#submit{
+    position:relative;
+    top:50px;
+    border-radius: 50%;
+    border:none;
+    background-color: gold;
+    color:green;
+    font-family:'Arvo', serif;
+    font-size: 20px;
+    cursor:pointer;
+}
+#submit:hover{
+   background-color: green;
+   color:gold;
+}
+
+/*media query for contact page */
+@media(max-width:2560px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 140px;
+    }
+    .contact-information{
+        height:1800px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:50px;
+    }
+
+    
+    #name{
+        font-size:70px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:70px;
+        text-align: center;
+    }
+    #subject{
+        font-size:70px;
+        text-align: center;
+    }
+    #message{
+        height:140px;
+        width:755px;
+        font-size: 70px;  
+    }
+    #submit{
+        position:relative;
+        top:180px;
+        font-size: 45px;
+    }
+}
+@media(max-width:1440px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 35px;
+    }
+    .contact-information{
+        height:870px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:30px;
+    }
+
+    
+    #name{
+        font-size:20px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:20px;
+        text-align: center;
+    }
+    #subject{
+        font-size:20px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:275px;
+        font-size: 20px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 30px;
+    }
+}
+@media(max-width:1280px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 35px;
+    }
+    .contact-information{
+        height:870px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:30px;
+    }
+
+    
+    #name{
+        font-size:20px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:20px;
+        text-align: center;
+    }
+    #subject{
+        font-size:20px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:240px;
+        font-size: 20px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 30px;
+    }
+}
+@media(max-width:1024px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 35px;
+    }
+    .contact-information{
+        height:700px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:30px;
+    }
+
+    
+    #name{
+        font-size:20px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:20px;
+        text-align: center;
+    }
+    #subject{
+        font-size:20px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:230px;
+        font-size: 20px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 30px;
+    }
+}
+@media(max-width:768px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 35px;
+    }
+    .contact-information{
+        height:950px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:20px;
+    }
+
+    
+    #name{
+        font-size:20px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:20px;
+        text-align: center;
+    }
+    #subject{
+        font-size:20px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:235px;
+        font-size: 18px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 30px;
+    }
+}
+@media(max-width:540px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 28px;
+    }
+    .contact-information{
+        height:700px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:20px;
+    }
+
+    
+    #name{
+        font-size:15px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:15px;
+        text-align: center;
+    }
+    #subject{
+        font-size:15px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:270px;
+        font-size: 15px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 20px;
+    }
+}
+@media(max-width:425px){
+    #contact-text{
+        padding:30px 10px;
+        font-size: 23px;
+    }
+    .contact-information{
+        height:550px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:20px;
+    }
+
+    
+    #name{
+        font-size:15px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:15px;
+        text-align: center;
+    }
+    #subject{
+        font-size:15px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:270px;
+        font-size: 15px;  
+    }
+    #submit{
+        position:relative;
+        top:125px;
+        font-size: 20px;
+    }
+}
+@media(max-width:414px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 23px;
+    }
+    .contact-information{
+        height:610px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:10px;
+    }
+
+    
+    #name{
+        font-size:13px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:13px;
+        text-align: center;
+    }
+    #subject{
+        font-size:13px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:170px;
+        font-size: 13px;  
+    }
+    #submit{
+        position:relative;
+        top:110px;
+        font-size: 13px;
+    }
+}
+@media(max-width:411px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 23px;
+    }
+    .contact-information{
+        height:750px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:10px;
+    }
+
+    
+    #name{
+        font-size:13px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:13px;
+        text-align: center;
+    }
+    #subject{
+        font-size:13px;
+        text-align: center;
+    }
+    #message{
+        height:130px;
+        width:170px;
+        font-size: 13px;  
+    }
+    #submit{
+        position:relative;
+        top:110px;
+        font-size: 13px;
+    }
+}
+@media(max-width:375px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 20px;
+    }
+    .contact-information{
+        height:730px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:8px;
+    }
+
+    
+    #name{
+        font-size:12px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:12px;
+        text-align: center;
+    }
+    #subject{
+        font-size:12px;
+        text-align: center;
+    }
+    #message{
+        height:100px;
+        width:150px;
+        font-size: 12px;  
+    }
+    #submit{
+        position:relative;
+        top:90px;
+        font-size: 13px;
+    }
+}
+@media(max-width:360px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 15px;
+    }
+    .contact-information{
+        height:500px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:8px;
+    }
+
+    
+    #name{
+        font-size:12px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:12px;
+        text-align: center;
+    }
+    #subject{
+        font-size:12px;
+        text-align: center;
+    }
+    #message{
+        height:100px;
+        width:150px;
+        font-size: 12px;  
+    }
+    #submit{
+        position:relative;
+        top:80px;
+        font-size: 12px;
+    }
+}
+@media(max-width:320px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 15px;
+    }
+    .contact-information{
+        height:480px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:8px;
+    }
+
+    
+    #name{
+        font-size:12px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:12px;
+        text-align: center;
+    }
+    #subject{
+        font-size:12px;
+        text-align: center;
+    }
+    #message{
+        height:100px;
+        width:150px;
+        font-size: 12px;  
+    }
+    #submit{
+        position:relative;
+        top:80px;
+        font-size: 12px;
+    }
+}
+@media(max-width:280px){
+    #contact-text{
+        padding:50px 10px;
+        font-size: 15px;
+    }
+    .contact-information{
+        height:580px;
+    }
+
+    .contact-name, .contact-mail, .contact-subject, .contact-message{
+        padding-bottom:8px;
+    }
+
+    
+    #name{
+        font-size:12px;
+        text-align: center;
+
+    }
+    #mail{
+        font-size:12px;
+        text-align: center;
+    }
+    #subject{
+        font-size:12px;
+        text-align: center;
+    }
+    #message{
+        height:100px;
+        width:150px;
+        font-size: 12px;  
+    }
+    #submit{
+        position:relative;
+        top:80px;
+        font-size: 12px;
+    }
+}

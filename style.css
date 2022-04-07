@@ -902,7 +902,7 @@
     display:none;
 }
 .container-experience{
-    height:1100px;
+    height:1900px;
     background-color: black;
     text-align: center;
 }
@@ -950,7 +950,7 @@
 @media(max-width:2560px)
 {
     .container-experience{
-        height:3000px;
+        height:3500px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 200px;
@@ -959,7 +959,7 @@
 @media(max-width:1440px)
 {
     .container-experience{
-        height:1770px;
+        height:1970px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 100px;
@@ -968,7 +968,7 @@
 @media(max-width:1280px)
 {
     .container-experience{
-        height:1600px;
+        height:1875px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 95px;
@@ -977,7 +977,7 @@
 @media(max-width:1024px)
 {
     .container-experience{
-        height:1300px;
+        height:1600px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 90px;
@@ -986,7 +986,7 @@
 @media(max-width:768px)
 {
     .container-experience{
-        height:985px;
+        height:1000px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 70px;
@@ -995,7 +995,7 @@
 @media(max-width:540px)
 {
     .container-experience{
-        height:770px;
+        height:900px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 50px;
@@ -1004,7 +1004,7 @@
 @media(max-width:425px)
 {
     .container-experience{
-        height:650px;
+        height:850px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 50px;
@@ -1013,7 +1013,7 @@
 @media(max-width:414px)
 {
     .container-experience{
-        height:650px;
+        height:850px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 50px;
@@ -1022,7 +1022,7 @@
 @media(max-width:411px)
 {
     .container-experience{
-        height:650px;
+        height:850px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 50px;
@@ -1031,7 +1031,7 @@
 @media(max-width:375px)
 {
     .container-experience{
-        height:550px;
+        height:750px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 40px;
@@ -1040,7 +1040,7 @@
 @media(max-width:360px)
 {
     .container-experience{
-        height:575px;
+        height:775px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 50px;
@@ -1049,7 +1049,7 @@
 @media(max-width:320px)
 {
     .container-experience{
-        height:535px;
+        height:835px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 55px;
@@ -1058,7 +1058,7 @@
 @media(max-width:280px)
 {
     .container-experience{
-        height:560px;
+        height:760px;
     }
     .image, .image-2, .image-3, .image-4,.image-5,.image-6{
         padding-top: 65px;
